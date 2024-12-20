@@ -1,0 +1,97 @@
+/* app/login/globals.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('/image/imag3.webp'); /* Ensure this image is in the public folder */
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+  }
+  
+  .Log {
+    align-items: center;
+    position: fixed;
+    background-color: #ffffff42;
+    border-radius: 10px;
+  }
+  
+  .wap {
+    width: 450px;
+    background-color: transparent;
+    color: azure;
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(117, 113, 113, 0.2);
+  }
+  
+  .wap h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .inputb {
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    border-style: none;
+    
+  }
+  
+  .inputb input {
+    width: 100%;
+    height:100%;
+    border-radius: 10px;
+  }
+  
+  .inputb input::placeholder {
+      color: #4b4545b2;
+  }
+
+  
+  .remember-forgot {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 20px 0;
+      font-size:14px;
+      color:#3a08ec; 
+  }
+  
+  .wap button {
+      width:100%;
+      height:50px; 
+      border:none; 
+      background-color:#940D0D; 
+      color:white; 
+      border-radius:40px; 
+      font-size :16px; 
+      font-weight :600; 
+      cursor:pointer; 
+  }
+  
+  .wap button:hover {
+      background-color:red; 
+  }
+  
+  .register {
+      text-align:center; 
+      font-size :medium; 
+      margin :10px; 
+  }
+  
+  .register a {
+      color:black; 
+  }
+  
+  .register a:hover {
+      text-decoration :underline; 
+  }
+  

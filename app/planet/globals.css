@@ -1,0 +1,52 @@
+/* app/gallery/gallery.css */
+*{
+    
+}
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  header h1{
+    padding-top: 50px;
+   
+  }
+ 
+  
+  .gallery-item {
+    position: relative;
+    height: 200px; 
+    border-radius: 1%;
+    overflow: hidden;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .gallery-item img {
+    border-radius: 8px;
+  }
+  
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s;
+  }
+  
+  .gallery-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .gallery-image {
+    transition: opacity 0.3s;
+  }
+  
